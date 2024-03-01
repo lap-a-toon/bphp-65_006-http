@@ -13,7 +13,7 @@
         <li><a href="txt.php?text=Мне захотелось отдать такой текст в файле">Страница отдаст файл TXT, в котором будет передан текст из GET-параметра</a></li>
         <li>Сессии:
             <ul>
-                <li><a href="start-session.php" target="_blank">Запускаем сессию а на 4 переход или её обновление перебросим на следующую страницу</a></li></li>
+                <li><a href="start-session.php" target="_blank">Запускаем сессию а на 3 переход или её обновление перебросим на следующую страницу</a></li></li>
                 <li><a href="start-session.php?reset=qwe" target="_blank">Сбрасываем сессионный счетчик</a></li></li>
                 <li><a href="get-session-data.php" target="_blank">Смотрим сколько раз открывалась предыдущая страница</a></li>
             </ul>

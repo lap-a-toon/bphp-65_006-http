@@ -9,8 +9,8 @@ if(isset($_GET['reset'])){
 if(!isset($_SESSION['count'])){
     $_SESSION['count']=0;
 }
-$counter = $_SESSION['count'];
-if(++$counter>2){
+$counter = ++$_SESSION['count'];
+if($counter % 3 === 0){
     $_SESSION['redirected']=1;
     header('Location: ./get-session-data.php');
 }else{
